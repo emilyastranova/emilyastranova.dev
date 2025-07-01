@@ -1,4 +1,13 @@
-# Sniffing BitLocker Keys from TPM
+---
+title: Sniffing BitLocker Keys from TPM
+date: 2025-07-01 16:02:00 +0800
+categories: [Hardware]
+tags: [bitlocker tpm spi vmk saleae logic analyzer]     # TAG names should always be lowercase
+author: emilyastranova
+description: Methodology for sniffing BitLocker Volume Master Keys (VMK) from a Trusted Platform Module (TPM)
+toc: true
+comments: false
+---
 
 This post outlines the methodology for sniffing BitLocker Volume Master Keys
 (VMK) from a Trusted Platform Module (TPM) on a target system. This technique is
