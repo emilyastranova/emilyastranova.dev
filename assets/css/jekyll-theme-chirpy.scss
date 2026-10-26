@@ -657,3 +657,15 @@ footer {
   a { color: var(--al-ash); }
   a:hover { color: var(--al-acid); }
 }
+
+/* ---------- no motion ---------- */
+/* Chirpy puts transitions (often `transition: all`) on the sidebar, nav, cards, tags and images.
+   When a browser paints before the stylesheet arrives, those elements fade in from unstyled white,
+   so drop transitions entirely. Also drop the image-loading shimmer and the TOC fade-up; the TOC
+   popup's slide animations stay because Chirpy's JS waits on them to close it. */
+*,
+*::before,
+*::after { transition: none !important; }
+
+.shimmer::before { content: none; animation: none; }
+#toc-wrapper:not(.invisible) { animation: none; }
