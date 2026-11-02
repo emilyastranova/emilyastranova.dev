@@ -23,6 +23,9 @@ CardAccess 3000, originally built by Continental Access (a subsidiary of NAPCO S
 
 This wasn't even the first time I had danced with this licensing system. Last year, the software was running on an ancient, physically failing bare-metal Windows server. When I did a physical-to-virtual migration to rescue it from the dying hardware and move it into a Proxmox virtual machine, the hardware mismatch check tripped. Luckily, back then Continental was still operating their licensing servers, and they actually worked with me over email to re-activate the license on the new virtual machine.
 
+
+![Login Screen](assets/cardaccess3000/card_access_3000_original_email.png)
+
 At the time, I thought putting it into a VM was the ultimate insurance policy. I assumed running inside a hypervisor would permanently lock the hardware profile into place, no more dying motherboards, no more blown capacitors, and no more hardware change flags.
 
 Upon migrating the VM to a newer Proxmox host during scheduled cluster maintenance, I found out the hard way that this wasn't true at all.
