@@ -217,7 +217,7 @@ Once I had `drive-scsi1.raw`, looking at the partition table showed a hidden sec
 
 ## Mid-2000s Anti-Piracy Controls
 
-Looking at the extracted files in `extracted/CardAccess3000/`, I found a the expected architecture of really old commercial software:
+Looking at the extracted files in `extracted/CardAccess3000/`, I found the expected architecture of really old commercial software:
 
 | Binary | Type | Role |
 | --- | --- | --- |
